@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA030CCE-D98F-E7BA-7418-803754B3FB3B" name="Pasajero">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 20:41:30 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pasaporte" id="FDF2F80D-28B6-1A53-BAE3-443692F31C9E">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 20:59:54 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="19F020A1-C7C9-B1CA-FF12-E7F22B6337B3">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 20:52:11 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="9E461CBD-49AA-41EB-9769-D1909891B6B0">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 20:44:45 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="D24CC10D-8511-BA42-31DA-E259EB0C3C5C">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:07:07 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="AE7273D7-FB5E-A0B0-33BD-1935ADD1844C">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:08:17 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C6AFA8C3-93F8-4F43-10EE-F0E219CACAFF">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:08:39 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D282EA63-59E1-B128-D8E2-B0DB67B86635" name="Pasajero PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 20:59:58 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDF2F80D-28B6-1A53-BAE3-443692F31C9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

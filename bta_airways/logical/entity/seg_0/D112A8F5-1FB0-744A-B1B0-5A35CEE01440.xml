@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D112A8F5-1FB0-744A-B1B0-5A35CEE01440" name="Reserva">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:20:21 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reserva" id="3050CA9B-0B72-94D2-8020-693DFCDE096E">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:20:31 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="08DDE037-5C6E-FCF0-2542-4BC893CE5933">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:21:05 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="82C8733C-7406-3084-8FDC-3974306DE92A">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:21:31 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="A8932A94-A185-4715-D3D9-7D88F0055E65">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:22:12 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empleado" id="C446AB93-8776-BFBE-8E6D-4579B920AB07">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:22:48 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte" id="A0AB4D8D-F830-C727-5D38-0E92A014D826">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:25:06 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo" id="FE54C274-DD3A-BE86-E84D-1DC83F20E45F">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:25:30 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte1" id="072D45F9-1380-25F2-E98C-20F89AC7A6C9">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:44:28 UTC</createdTime>
+<generatorID>3A26D583-1891-E4DC-4205-707CAE888B71</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<referedAttribute>FDF2F80D-28B6-1A53-BAE3-443692F31C9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empleado1" id="1FFE0840-9F53-2833-290B-71F159BD985B">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:44:45 UTC</createdTime>
+<generatorID>25CBA186-2B97-035D-F2A8-8D6FE7912F79</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<referedAttribute>FFFD0867-ECD9-010A-A5A2-E1B0D4C5043D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB735874-56A0-CD2B-6025-FCAD4742BADE" name="Reserva PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:20:42 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3050CA9B-0B72-94D2-8020-693DFCDE096E</attributeRef>
+<attributeRef>072D45F9-1380-25F2-E98C-20F89AC7A6C9</attributeRef>
+<attributeRef>1FFE0840-9F53-2833-290B-71F159BD985B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

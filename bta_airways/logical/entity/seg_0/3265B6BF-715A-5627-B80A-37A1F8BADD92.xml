@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3265B6BF-715A-5627-B80A-37A1F8BADD92" name="Vuelo">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:17:45 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_vuelo" id="51DB7918-FC3A-9821-DC55-6E6A9C482087">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:18:24 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="A4C93703-1F24-84E5-69B2-C15633DE459D">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:18:55 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="A1D52882-84AF-E966-1E74-DE1BD03330EC">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:19:29 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="145EE427-739E-8283-A465-ED5A2EA02F69">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:19:48 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="BA9C5265-DFE9-EB9B-2CB7-6CE3C2C93A3E">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:44:54 UTC</createdTime>
+<generatorID>68B0BA32-4412-2356-5761-DC5792C9C578</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<referedAttribute>3050CA9B-0B72-94D2-8020-693DFCDE096E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte1" id="007C9155-477C-6AA5-0FF4-D93C879A5FE2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:44:54 UTC</createdTime>
+<generatorID>68B0BA32-4412-2356-5761-DC5792C9C578</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<referedAttribute>072D45F9-1380-25F2-E98C-20F89AC7A6C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empleado1" id="739EF4FA-4F9F-029A-9A76-4E8B14ADF2AE">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:44:54 UTC</createdTime>
+<generatorID>68B0BA32-4412-2356-5761-DC5792C9C578</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<referedAttribute>1FFE0840-9F53-2833-290B-71F159BD985B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BF5DB02-F969-40E3-90AA-A9049DFCA0CF" name="Vuelo PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:18:30 UTC</createdTime>
+<ownerDesignName>bta_airways</ownerDesignName>
+<engineerTo>
+<item key="12C07957-DFEA-9069-FE71-6D3EAEEC08A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51DB7918-FC3A-9821-DC55-6E6A9C482087</attributeRef>
+<attributeRef>BA9C5265-DFE9-EB9B-2CB7-6CE3C2C93A3E</attributeRef>
+<attributeRef>007C9155-477C-6AA5-0FF4-D93C879A5FE2</attributeRef>
+<attributeRef>739EF4FA-4F9F-029A-9A76-4E8B14ADF2AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

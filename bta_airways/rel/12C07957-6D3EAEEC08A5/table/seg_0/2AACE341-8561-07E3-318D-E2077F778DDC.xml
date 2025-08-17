@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AACE341-8561-07E3-318D-E2077F778DDC" name="Empleado">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>E63EA03E-05F9-4D4E-0338-D410D3642F85</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_empleado" id="060AE4DD-E908-1B20-7CAC-B85DC07EA134">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>FFFD0867-ECD9-010A-A5A2-E1B0D4C5043D</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="50A0AB0A-8FA7-44C1-6E20-F2C6137510B2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>7A224631-26C8-5494-C303-69E3036DF703</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="4110A1FC-B192-241A-E298-EC380F5E065F">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>AF733A6D-CDC2-618F-430F-47C64923CB74</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10,2</dataTypeSize>
+<ownDataTypeParameters>10,2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="2C8EDF9E-1D26-BBAA-B500-7E0AFB17A91F">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>FCB309C3-797D-E267-5188-99F7690B416C</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="5DE0AE96-930B-A590-CD7D-B8F4AD5EA7D9">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>A196F714-A7A0-822C-D49D-F0D28BD9C4FB</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="366C3460-4102-E889-219A-B6DE1B266BCB">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>C6BF651B-E7B4-0EF8-A338-075D332DCA15</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="434ED0E1-FFF5-250D-B214-B130EDE88DE2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>D991BF88-467F-BEBA-0B12-7CE79EC1A930</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_contacto_adicional" id="0151AD80-5665-B9C4-0307-C07C94DACF41">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>F7158D64-BAA2-83B0-6432-92063C4345A9</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD8F3ED0-7FC9-9406-A320-9F1577C14630" name="Empleado_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>6795AA5F-8312-1E38-74DE-DB1C39BCDC34</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="060AE4DD-E908-1B20-7CAC-B85DC07EA134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

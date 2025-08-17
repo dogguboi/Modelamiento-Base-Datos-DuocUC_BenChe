@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64A81B8E-FF8D-EBA9-263C-5DCD1F01B2B2" name="Pasajero">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>EA030CCE-D98F-E7BA-7418-803754B3FB3B</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pasaporte" id="2C16639C-5EB9-22EB-A222-2ACDB3354256">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>FDF2F80D-28B6-1A53-BAE3-443692F31C9E</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="2A5CB638-04FE-B3A1-DD71-730EF81A9561">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>19F020A1-C7C9-B1CA-FF12-E7F22B6337B3</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="A71215E8-D970-9B9C-BB38-5BC9276F2817">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>9E461CBD-49AA-41EB-9769-D1909891B6B0</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="21479352-33FD-BC9C-A94B-4988FF1B7706">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>D24CC10D-8511-BA42-31DA-E259EB0C3C5C</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="4B168814-F8D2-2FC4-41A8-C93C47B386C9">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>AE7273D7-FB5E-A0B0-33BD-1935ADD1844C</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B41B20B2-6F50-EA7D-E8B5-6EE401FDE869">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>C6AFA8C3-93F8-4F43-10EE-F0E219CACAFF</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73B1075F-6EA7-2A4A-1DAD-C7D76C26B363" name="Pasajero_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-17 21:53:46 UTC</createdTime>
+<generatorID>D282EA63-59E1-B128-D8E2-B0DB67B86635</generatorID>
+<ownerDesignName>bta_airways</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C16639C-5EB9-22EB-A222-2ACDB3354256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
