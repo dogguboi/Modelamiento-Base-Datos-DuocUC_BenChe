@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88DC1DBC-4292-A273-4001-03E263CD95D3" containerWithKeyObject="CAF81CE4-8C05-EB29-2DBC-A8D3E4DDCE1B" localFKIndex="7DA5AE1C-DB60-28F6-E51D-9BD51A0DA3A9" name="Equipaje_Pasajero_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>527EA810-B4E3-864A-8768-4D4E434DC9A7</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<referredTableLongName>Pasajero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C754062A-BC11-9737-F13E-B9106E6F1CA2</referredTableID>
+<keyObject>B3387B35-A034-E12C-C455-6078A4D6524B</keyObject>
+<referredKeyID>B3387B35-A034-E12C-C455-6078A4D6524B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pasajero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DBBC1DEF-F21C-B702-330F-7332C6BAC659">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 20:49:25 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E56F87D-9606-BB84-AFF8-37DFB428CD73" name="Reserva">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:12:05 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_reserva" id="D7476861-DA35-AE7E-5729-036A9374469B">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:12:25 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="89F61D35-2AC2-AAC8-9176-01D34608AD47">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:13:14 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="7F8D5FA8-EB57-8BF5-354F-45B139A40809">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:13:26 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2E803032-9C84-A142-7636-183BE7277500">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:13:38 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasajero1" id="05827C7C-DCDC-21E4-943E-054832C181E6">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:25:38 UTC</createdTime>
+<generatorID>CA84D840-F28D-BD81-9364-DF145F176DB9</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<referedAttribute>D5E7D25B-3387-AA63-AE55-B8608E62EC01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo1" id="2ADF0C31-9B8B-7C02-C6A0-BE4E7BB213ED">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:25:59 UTC</createdTime>
+<generatorID>A4F44EEF-7FB7-0CFB-A829-8D9FBD49C095</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<referedAttribute>06F86F87-9E9B-1326-0D42-BC40C37A7FA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="803E8C38-47E3-D487-1871-0902D7FF5FC5" name="Reserva PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:12:44 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7476861-DA35-AE7E-5729-036A9374469B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

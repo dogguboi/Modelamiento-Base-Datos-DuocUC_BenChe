@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="BBCE5F36-F071-C601-5CCC-84E1AF0E7B5F">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:30:48 UTC</createdTime>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<engineerTo>
+<item key="614FA51C-CFA9-F1D0-CB21-46C9926CABD3" value="true"/>
+</engineerTo>
+<sourcePk>ADB1A72D-1EE2-5DA0-005A-FFCF107287C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>144BC5C8-E52A-33C9-ED79-7859B84C1AF9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10FA65C1-818E-74E7-65B4-9F231E535E54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

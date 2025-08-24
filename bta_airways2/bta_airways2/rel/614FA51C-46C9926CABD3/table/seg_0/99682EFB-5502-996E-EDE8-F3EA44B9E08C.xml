@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99682EFB-5502-996E-EDE8-F3EA44B9E08C" name="Administrativo">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>144BC5C8-E52A-33C9-ED79-7859B84C1AF9</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_RUT" id="A0C3FA01-376F-CA0B-5DA9-63EC99E551F3">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>D9DF1E4C-549C-31B9-4769-7C4C6A10C4BB</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCF03AB-D744-477F-13C9-E4DD67B7962A" referredColumn="C5C34352-E77E-F0B3-0522-FF0B67AA180F"/>
+</associations>
+</Column>
+<Column name="horas_extra" id="6E014227-E785-F8FB-546B-603E441C2F91">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>8D5671EF-3451-F002-7516-FF1662C85EC1</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFP" id="34376742-676F-B064-388D-CA2A0226CBC6">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>D605F017-05D6-6D05-AFC3-00594C3B967D</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25AF1EEB-0240-BCC0-C8B4-A07C6AE4FA19" name="Administrativo_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>ADB1A72D-1EE2-5DA0-005A-FFCF107287C3</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0C3FA01-376F-CA0B-5DA9-63EC99E551F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01D6637F-BDD5-5B2F-CE46-3CEACE3973A2" name="Administrativo_Empleado_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-21 21:34:40 UTC</createdTime>
+<generatorID>99D53FA4-2D3D-65AE-F45B-50E0D49ABCF3</generatorID>
+<ownerDesignName>bta_airways2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0C3FA01-376F-CA0B-5DA9-63EC99E551F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
