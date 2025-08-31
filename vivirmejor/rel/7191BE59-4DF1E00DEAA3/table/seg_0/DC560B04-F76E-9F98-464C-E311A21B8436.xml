@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC560B04-F76E-9F98-464C-E311A21B8436" name="PERSONA">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>0B379368-C83D-7758-013C-AE8E2188386F</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="72993CD8-F22E-B9E0-FCC4-EE89358194A3">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>848EDD94-78B5-C294-E185-DA98C6824F9D</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F7693C05-CC11-75CE-A60E-D3F8CB04BC8C">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>6C2B375B-D48A-1105-05E8-0EA82D1814E2</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="3D594D42-06CE-C570-0BC9-CD8716F96EE4">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>A2BEAB0E-6ADA-D19B-C035-7754DA2738DC</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C069F786-52DB-55AA-94FD-81EBC247A753">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>450369C4-6AF6-3FEB-2BB0-9732A92F5E90</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BC85C2E-07AF-92E1-953D-88A12F5D77C7" name="PERSONA_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>DA2FB818-0991-1FFE-D128-2BA31B6A869B</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72993CD8-F22E-B9E0-FCC4-EE89358194A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DD8BA4F-4BB1-F162-52A2-9C8874C9A171" name="PERSONA_rut_UN">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>032A71C4-24C3-9A79-8662-9FFA7E17CE85</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72993CD8-F22E-B9E0-FCC4-EE89358194A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34079316-AFC0-F7E7-2B3A-F4FF59786DEF" name="ANEXO">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:32:42 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_anexo" id="84E8CDD5-CE63-DFA4-E2BD-FC35169B694D">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:32:50 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="17E9E3FD-4E34-C90C-691B-11E0FAC186C7">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:42:29 UTC</createdTime>
+<generatorID>3E70A66F-6930-F3D2-5D47-4A12D7A75FC9</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<referedAttribute>0CCE38CD-BAEA-A92C-5E2F-932430FE0004</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio_estadia" id="410A265C-60F1-160F-5CD0-19656FBEB5DC">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:33:07 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin_estadia" id="1C985EFF-E7B5-0FD6-0558-D00DBEEDC496">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:33:36 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="37626113-5FD3-C4CF-9786-D16ABB4DD3E6">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:33:53 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D47653B3-9115-7128-2C00-913690721514" name="ANEXO PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:33:01 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84E8CDD5-CE63-DFA4-E2BD-FC35169B694D</attributeRef>
+<attributeRef>17E9E3FD-4E34-C90C-691B-11E0FAC186C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

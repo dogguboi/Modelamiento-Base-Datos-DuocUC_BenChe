@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1818C010-844E-21C5-0EA2-5840968CDD5F" name="ANEXO">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>34079316-AFC0-F7E7-2B3A-F4FF59786DEF</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anexo" id="F4740467-BF20-B73D-5A68-913A67ABB6A4">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>84E8CDD5-CE63-DFA4-E2BD-FC35169B694D</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_id_contrato" id="EB12674E-E6FE-400F-F667-65337148C656">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>17E9E3FD-4E34-C90C-691B-11E0FAC186C7</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C3448C6-0EA7-F52B-7B2D-66A9B4AA2F48" referredColumn="5390003F-8B8A-0107-6F8D-85E7B825E751"/>
+</associations>
+</Column>
+<Column name="fecha_inicio_estadia" id="1EE38112-D189-9536-B2EE-36B5DABAA0C7">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>410A265C-60F1-160F-5CD0-19656FBEB5DC</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin_estadia" id="77A7F469-85E0-0630-2319-F5CDBAA201FD">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>1C985EFF-E7B5-0FD6-0558-D00DBEEDC496</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="97DDD95B-C3A5-ADE7-6172-C85341FE075C">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>37626113-5FD3-C4CF-9786-D16ABB4DD3E6</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD1ED224-BFFC-FD50-9363-7BFAE0432BAF" name="ANEXO_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>D47653B3-9115-7128-2C00-913690721514</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4740467-BF20-B73D-5A68-913A67ABB6A4"/>
+<colUsage columnID="EB12674E-E6FE-400F-F667-65337148C656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4516251D-0D01-DC11-77AA-0E2DE896C686" name="ANEXO_CONTRATO_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>3E70A66F-6930-F3D2-5D47-4A12D7A75FC9</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB12674E-E6FE-400F-F667-65337148C656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

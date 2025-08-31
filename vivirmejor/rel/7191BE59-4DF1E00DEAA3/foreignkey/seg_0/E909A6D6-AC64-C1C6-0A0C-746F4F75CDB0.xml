@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E909A6D6-AC64-C1C6-0A0C-746F4F75CDB0" containerWithKeyObject="003FCEAA-252F-A679-F8B5-71553F99F253" localFKIndex="B8CC8932-3C0B-4CAC-B410-29E666ACF24E" name="RESIDENTE_ANEXO_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>6ABBCC14-76A6-4DD5-2FEB-3776E3D989A6</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<referredTableLongName>ANEXO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1818C010-844E-21C5-0EA2-5840968CDD5F</referredTableID>
+<keyObject>AD1ED224-BFFC-FD50-9363-7BFAE0432BAF</keyObject>
+<referredKeyID>AD1ED224-BFFC-FD50-9363-7BFAE0432BAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_anexo,CONTRATO_id_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

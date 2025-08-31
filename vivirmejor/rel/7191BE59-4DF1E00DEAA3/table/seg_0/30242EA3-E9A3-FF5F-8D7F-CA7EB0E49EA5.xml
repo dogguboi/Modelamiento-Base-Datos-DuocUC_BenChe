@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30242EA3-E9A3-FF5F-8D7F-CA7EB0E49EA5" name="Temporal">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>82EBBE71-C13D-7D79-2016-56BC42B0016C</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="7E0E4555-FFF9-EFB7-A104-853E6E22539D">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>3DDC8DF9-0C9A-CECD-6FC9-30023A7F11CD</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C57C8934-12F5-65E0-1483-D640A63BEC10" referredColumn="9ABB3A1F-72AE-AC34-211F-93B8635E3320"/>
+</associations>
+</Column>
+<Column name="dias_estadia_previstos" id="49980AD6-3E8F-F63E-AFFD-172CF0951019">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>FDF1CB00-BB70-9F83-2ECE-DA502163F174</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1CF95CD-301C-E48E-D05C-916F63E7D081" name="Temporal_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>56C3A9DB-22A3-DA21-EF61-700006A1BB42</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0E4555-FFF9-EFB7-A104-853E6E22539D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC45C0A2-03C3-FF0B-5AFD-22477B312C59" name="Temporal_RESIDENTE_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>59127321-144B-C006-C242-EE33926843AF</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0E4555-FFF9-EFB7-A104-853E6E22539D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

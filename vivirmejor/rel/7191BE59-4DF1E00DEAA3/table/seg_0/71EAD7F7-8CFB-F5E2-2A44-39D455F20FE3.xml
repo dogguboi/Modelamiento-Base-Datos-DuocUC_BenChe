@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71EAD7F7-8CFB-F5E2-2A44-39D455F20FE3" name="Permanente">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>B90AB429-C71C-8982-2164-54CE2BCAE2CB</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="B9AA42D2-BE43-63A1-660E-DAC0BD34A083">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>3DDC8DF9-0C9A-CECD-6FC9-30023A7F11CD</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="494E5370-730C-C4E6-1FAE-FAA7DF4AC5C3" referredColumn="9ABB3A1F-72AE-AC34-211F-93B8635E3320"/>
+</associations>
+</Column>
+<Column name="historial_clinico" id="46F22014-D7B4-1AF9-3CC4-17975A00C026">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>9286DC8B-23B4-1FB3-2470-F486FC461AC0</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB63C970-3F65-73AB-A460-4F470CA3C584" name="Permanente_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>56C3A9DB-22A3-DA21-EF61-700006A1BB42</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9AA42D2-BE43-63A1-660E-DAC0BD34A083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0235E5F-55BF-856A-C74C-3F709C6DD18D" name="Permanente_RESIDENTE_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>A5FACB9D-87A2-FC36-6CD1-554C3878A155</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9AA42D2-BE43-63A1-660E-DAC0BD34A083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

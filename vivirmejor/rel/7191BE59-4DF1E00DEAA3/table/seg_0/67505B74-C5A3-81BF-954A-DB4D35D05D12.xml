@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67505B74-C5A3-81BF-954A-DB4D35D05D12" name="CUIDADOR">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>EE60B3E6-F059-95E7-7070-428DF94DF21C</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_personal" id="B3024226-8271-7B7F-F1DA-E645ED2CB04F">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>53511611-82B7-813B-674E-19491FE53271</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21DEA1BB-57A7-E2FA-54A1-ED9207D0F75A" referredColumn="C7CFCF5A-AF97-A6FD-02FD-E15AC5BFD3BF"/>
+</associations>
+</Column>
+<Column name="rut" id="42143B7F-3D79-B4C9-EA45-95ACBE74DDE4">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>52E2BD31-B549-9C33-3BBA-17988BEE4632</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21DEA1BB-57A7-E2FA-54A1-ED9207D0F75A" referredColumn="C38EE427-944A-09BC-F131-138FD4E36AA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E8F1CC4-F66D-5686-9DD6-A9E85B5271FB" name="CUIDADOR_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>2116D0F0-9569-FF25-4255-758A170C4CC4</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3024226-8271-7B7F-F1DA-E645ED2CB04F"/>
+<colUsage columnID="42143B7F-3D79-B4C9-EA45-95ACBE74DDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9F9E303-06D5-53CD-813D-270121ACDE72" name="CUIDADOR_PERSONAL_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>91396D84-9FBC-F851-5A0F-73565F058ECE</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3024226-8271-7B7F-F1DA-E645ED2CB04F"/>
+<colUsage columnID="42143B7F-3D79-B4C9-EA45-95ACBE74DDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

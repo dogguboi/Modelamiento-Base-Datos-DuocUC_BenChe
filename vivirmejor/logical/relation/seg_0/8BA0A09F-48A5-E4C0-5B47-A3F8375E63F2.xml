@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="8BA0A09F-48A5-E4C0-5B47-A3F8375E63F2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:25:20 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<targetPk>2116D0F0-9569-FF25-4255-758A170C4CC4</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F0E8D0B-B67E-45AA-1EC5-C716A5DE079F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F0E8D0B-B67E-45AA-1EC5-C716A5DE079F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="rut" id="E763B39A-CEF2-39D5-D981-EC47E8975EF8">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:26:44 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

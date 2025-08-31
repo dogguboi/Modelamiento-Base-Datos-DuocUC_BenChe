@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B379368-C83D-7758-013C-AE8E2188386F" name="PERSONA">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:09:29 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="848EDD94-78B5-C294-E185-DA98C6824F9D">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:09:41 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6C2B375B-D48A-1105-05E8-0EA82D1814E2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:20:58 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="A2BEAB0E-6ADA-D19B-C035-7754DA2738DC">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:56:00 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="450369C4-6AF6-3FEB-2BB0-9732A92F5E90">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:56:19 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA2FB818-0991-1FFE-D128-2BA31B6A869B" name="PERSONA PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:09:57 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>848EDD94-78B5-C294-E185-DA98C6824F9D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="032A71C4-24C3-9A79-8662-9FFA7E17CE85" name="Unique_rut">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 00:05:21 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<engineerTo>
+<item key="7191BE59-4B84-44AE-E15C-4DF1E00DEAA3" value="true"/>
+</engineerTo>
+<newElementsIDs>848EDD94-78B5-C294-E185-DA98C6824F9D</newElementsIDs>
+<usedAttributes>
+<attributeRef>848EDD94-78B5-C294-E185-DA98C6824F9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

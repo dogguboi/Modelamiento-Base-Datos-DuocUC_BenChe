@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52869EDD-A1C7-A33C-935E-0B54B8DC5196" name="HABITACION">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>2A37202A-B129-A3E7-D7A7-44D1312DC9B5</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_habitacion" id="E6214395-500C-F439-0BEA-8E447A21A6E8">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>E9091C1B-5848-1909-8DB4-BD753684D17D</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numbero_habitacion" id="C51A5E41-9DF0-40A8-05D4-4D2ACE145CC0">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>C665A649-0813-FE3F-1C69-091BB2CD1EC8</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_habitacion" id="E8CA9E92-63CF-3CDF-F550-DA836AD78A39">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[INDIVIDUAL
+COMPARTIDA]]></commentInRDBMS>
+<generatorID>5A2259AB-C92C-EB92-2A36-DE052073C1A5</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESIDENCIA_id_residencia" id="E346425C-B3A2-929D-C7BF-B288557A6D72">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>CDE3CEA7-070D-FF5B-D723-CDD089BF63A8</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D42533-A781-D9B8-A3A1-1CD51858390E" referredColumn="19B64B3A-FD26-9A42-B0FA-9913112DCB65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDE1E19F-E1B9-96B9-6CFD-E0BC315D2ED3" name="HABITACION_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>4F4478F2-053B-3F42-686A-A9FE563479F4</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E346425C-B3A2-929D-C7BF-B288557A6D72"/>
+<colUsage columnID="E6214395-500C-F439-0BEA-8E447A21A6E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E10395D2-BD23-808F-B6EA-C4EDE1AF99BA" name="HABITACION_RESIDENCIA_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>0C33E0B3-0CC4-011E-D33E-459309F3C591</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E346425C-B3A2-929D-C7BF-B288557A6D72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

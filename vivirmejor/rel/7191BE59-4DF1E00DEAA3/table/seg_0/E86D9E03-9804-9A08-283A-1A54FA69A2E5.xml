@@ -1,0 +1,257 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E86D9E03-9804-9A08-283A-1A54FA69A2E5" name="PERSONAL">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>A6DEDD34-AFCE-654A-C3F3-8CDDDE4BB1D9</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_personal" id="C7CFCF5A-AF97-A6FD-02FD-E15AC5BFD3BF">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>53511611-82B7-813B-674E-19491FE53271</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53311F83-0C6D-51D4-D1CB-07E31AC05FF4" referredColumn="15435A74-959E-E2B7-76D1-1C49C55D023A"/>
+</associations>
+</Column>
+<Column name="PERSONA_rut" id="79BC4838-DC48-50FD-9A48-BD8E7A1155E4">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>0324B803-A8CC-25F4-A39E-AA2BEF277028</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E91BB487-C380-EC98-33D4-BAD3E5C81FA9" referredColumn="72993CD8-F22E-B9E0-FCC4-EE89358194A3"/>
+</associations>
+</Column>
+<Column name="nombre" id="998A645D-0698-E334-97EC-DD560063D1B4">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>0AD1237F-98E9-CF61-E7FD-937971E2F523</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="95954A09-ADF8-93C6-FADE-88CB9DDF7772">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>0FD48C3D-268A-A7E9-A98C-68992CB02B8F</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_personal" id="48B7B977-5799-5D54-4DE2-EE68AB0A69F9">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>378C799F-E6CB-BA52-9D8B-7C86238D4BED</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_id_personal" id="15435A74-959E-E2B7-76D1-1C49C55D023A">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>EB9476FE-2D1C-E71D-A300-9F3A0732F83B</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="3B5F7146-97CF-AB7A-64E0-237F45AA238E">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>E763B39A-CEF2-39D5-D981-EC47E8975EF8</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>53311F83-0C6D-51D4-D1CB-07E31AC05FF4</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="rut1" id="C38EE427-944A-09BC-F131-138FD4E36AA0">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>52E2BD31-B549-9C33-3BBA-17988BEE4632</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53311F83-0C6D-51D4-D1CB-07E31AC05FF4" referredColumn="2BDFD09D-073D-CD38-FD2C-083E6633E42E"/>
+</associations>
+</Column>
+<Column name="RESIDENCIA_id_residencia" id="B1236430-3646-A1C5-7471-D8C03F455F06">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>1FA0AED1-B712-4768-7963-BD339B7B747A</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F72EE8C-D9FF-887C-BC45-4C7730198E4B" referredColumn="19B64B3A-FD26-9A42-B0FA-9913112DCB65"/>
+</associations>
+</Column>
+<Column name="rut2" id="2BDFD09D-073D-CD38-FD2C-083E6633E42E">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>12CBEFC7-609B-D06D-4016-9952C51DB8C1</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="7E09C817-39E3-A0AE-ECD3-DB2B4F187347">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>ABA1EBB3-0192-306F-6BB5-195E54094431</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAL_rut2" id="D1ED21ED-909E-29D6-929B-C17C5FDC8AE2">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53311F83-0C6D-51D4-D1CB-07E31AC05FF4" referredColumn="2BDFD09D-073D-CD38-FD2C-083E6633E42E"/>
+</associations>
+</Column>
+<Column name="PERSONAL_PERSONAL_id_personal" id="3D96972F-75CD-F70A-51E2-42A6DAE45CFB">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53311F83-0C6D-51D4-D1CB-07E31AC05FF4" referredColumn="15435A74-959E-E2B7-76D1-1C49C55D023A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10D42C23-A980-83A2-EF8E-BC85BCF44E38" name="PERSONAL_PK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>2116D0F0-9569-FF25-4255-758A170C4CC4</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7CFCF5A-AF97-A6FD-02FD-E15AC5BFD3BF"/>
+<colUsage columnID="C38EE427-944A-09BC-F131-138FD4E36AA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="157B9D12-13DA-0180-9358-CB466B0D0826" name="PERSONAL_PKv1">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>5D2637A1-2787-43BA-F819-F9489D86AAFF</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BDFD09D-073D-CD38-FD2C-083E6633E42E"/>
+<colUsage columnID="15435A74-959E-E2B7-76D1-1C49C55D023A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="712E14A0-E9BA-6252-ADAC-BC9D79FD635A" name="PERSONAL_PERSONA_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>9F3B6E63-7A0F-DEAB-4223-D39449AF5703</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79BC4838-DC48-50FD-9A48-BD8E7A1155E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D19D8AA7-65CE-3EEA-F0D9-2C63F226904B" name="PERSONAL_PERSONAL_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-28 23:27:43 UTC</createdTime>
+<generatorID>8BA0A09F-48A5-E4C0-5B47-A3F8375E63F2</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1ED21ED-909E-29D6-929B-C17C5FDC8AE2"/>
+<colUsage columnID="C38EE427-944A-09BC-F131-138FD4E36AA0"/>
+<colUsage columnID="3D96972F-75CD-F70A-51E2-42A6DAE45CFB"/>
+<colUsage columnID="C7CFCF5A-AF97-A6FD-02FD-E15AC5BFD3BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B76FD3F5-34CA-0088-B851-7C88F628476F" name="PERSONAL_RESIDENCIA_FK">
+<createdBy>doggu</createdBy>
+<createdTime>2025-08-29 03:45:12 UTC</createdTime>
+<generatorID>2595870A-2982-CA69-892E-2D9938F00028</generatorID>
+<ownerDesignName>vivirmejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1236430-3646-A1C5-7471-D8C03F455F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
